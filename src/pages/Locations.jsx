@@ -16,10 +16,10 @@ import { useState, useEffect } from 'react';
            {locations.map(location => (
                         <div className="card">
                        <div className="card-body">
-                           <h5 className = "card-title">{location.name}</h5>
-                           <p className="card-text">{location.climate}</p>
-                           <p className="card-text">{location.terrain}</p>
-                           <p className="card-text">{location.surface_water}</p>
+                           <h5 className = "card-title">Location  : {location.name}</h5>
+                           <p className="card-text">Climate   : {location.climate}</p>
+                           <p className="card-text">Terrain   : {location.terrain}</p>
+                           <p className="card-text">Water Surface: {location.surface_water}</p>
                        </div>
                    </div>
                 ))}

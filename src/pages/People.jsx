@@ -16,10 +16,10 @@ import { useState, useEffect } from 'react';
            {people.map(person => (
                         <div className="card">
                        <div className="card-body">
-                           <h5 className = "card-title">{person.name}</h5>
-                           <p className="card-text">{person.gender}</p>
-                           <p className="card-text">{person.eye_color}</p>
-                           <p classNmae="card-text">{person.hair_color}</p>
+                           <h5 className = "card-title">Name   : {person.name}</h5>
+                           <p className="card-text">Gender: {person.gender}</p>
+                           <p className="card-text">Eyes   : {person.eye_color}</p>
+                           <p classNmae="card-text">Hair   : {person.hair_color}</p>
                        </div>
                    </div>
                 ))}
